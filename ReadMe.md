@@ -1,5 +1,6 @@
 # APICloud-mAliBaiChuan  
 ![](./Image/796d1b23dd8296b3bb36fbb3a7efedbf.png)
+
 此模块为APICloud自定义模块，集成后可在APP内实现阿里妈妈跟单、淘宝授权免登等等
 
 ## 为何会有这个Repositories
@@ -11,7 +12,7 @@
 * 请跳转至[mAliBaiChuan.md](./mAliBaiChuan.md)阅读详细细节
  
 ## 如何联系到我
-QQ:[401828628](http://wpa.qq.com/msgrd?v=3&uin=906157429&site=qq&menu=yes)
+QQ(注明来意):[401828628](http://wpa.qq.com/msgrd?v=3&uin=906157429&site=qq&menu=yes)
 
 个人博客：[http://www.maochunjie.com](http://www.maochunjie.com)
 
