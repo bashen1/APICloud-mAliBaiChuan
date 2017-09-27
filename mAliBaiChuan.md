@@ -71,7 +71,7 @@ ret：
 {
     userNick:"rocke" ,               //用户昵称
     avatarUrl:"http://...",          //用户头像
-    userId:"AAE...",                 //用户ID
+    openId:"AAE...",                 //用户ID
     isLogin:"true",                  //是否登陆，字符串，true/false
 }
 ```
@@ -121,7 +121,7 @@ ret：
 {
     userNick:"rocke" ,               //用户昵称
     avatarUrl:"http://...",          //用户头像
-    userId:"AAE...",                 //用户ID
+    openId:"AAE...",                 //用户ID
     isLogin:"true",                  //是否登陆，字符串，true/false
 }
 ```
