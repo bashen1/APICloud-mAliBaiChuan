@@ -37,7 +37,9 @@
 ```
 
 <div id="a0"></div>
+
 # **initTae**
+
 初始化阿里百川SDK
 initTae()
 
@@ -103,6 +105,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a2"></div>
+
 # **getUserInfo**
 
 获取登陆的用户的相关信息
@@ -153,6 +156,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a3"></div>
+
 # **logout**
 
 退出登陆
@@ -201,6 +205,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a4"></div>
+
 # **showTaokeItemById**
 
 通过itemid打开宝贝
@@ -284,6 +289,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a5"></div>
+
 #**showTaokeItemByUrl**
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接**）
@@ -367,6 +373,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a6"></div>
+
 #**addCartPage**
 
 添加商品到购物车
@@ -450,6 +457,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a7"></div>
+
 # **shopPage**
 
 打开店铺
@@ -533,6 +541,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a8"></div>
+
 # **myOrdersPage**
 
 我的订单页
@@ -621,6 +630,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a9"></div>
+
 # **myCartsPage**
 
 购物车列表页
@@ -699,6 +709,7 @@ iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a10"></div>
+
 # **错误码**
 
 -0 请求成功
