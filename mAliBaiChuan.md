@@ -272,7 +272,7 @@ var param = {
     isvcode:"app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.showTaokeItemById(param, function(ret, err) {
     if (ret) {
@@ -356,7 +356,7 @@ var param = {
     isvcode:"app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.showTaokeItemByUrl(param, function(ret, err) {
     if (ret) {
@@ -440,7 +440,7 @@ var param = {
     isvcode:"app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.addCartPage(param, function(ret, err) {
     if (ret) {
@@ -524,7 +524,7 @@ var param = {
     isvcode:"app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.shopPage(param, function(ret, err) {
     if (ret) {
@@ -613,7 +613,7 @@ var param = {
     isvcode:"app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.myOrdersPage(param, function(ret, err) {
     if (ret) {
@@ -692,7 +692,7 @@ var param = {
     isvcode : "app",
     opentype:"html5",
     adzoneid: '0',
-    tbkey: '0'
+    tkkey: '0'
 };
 alibaichuan.myCartsPage(param, function(ret, err) {
     if (ret) {
@@ -716,3 +716,5 @@ iOS系统，Android系统
 -90000 用户未登陆
 -90001 参数为空
 -其他，阿里百川返回的code和错误提示
+
+
