@@ -102,6 +102,7 @@
 # **initTae**
 
 初始化阿里百川SDK
+
 initTae()
 
 ## 示例代码
@@ -114,6 +115,7 @@ alibaichuan.initTae();
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a1"></div>
@@ -121,6 +123,7 @@ iOS系统，Android系统
 # **showLogin**
 
 打开手淘授权登陆
+
 showLogin(callback(ret, err))
 
 ## callback(ret, err)
@@ -167,6 +170,7 @@ alibaichuan.showLogin(function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a2"></div>
@@ -174,6 +178,7 @@ iOS系统，Android系统
 # **getUserInfo**
 
 获取登陆的用户的相关信息
+
 getUserInfo(callback(ret, err))
 
 ## callback(ret, err)
@@ -220,6 +225,7 @@ alibaichuan.getUserInfo(function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a3"></div>
@@ -227,6 +233,7 @@ iOS系统，Android系统
 # **logout**
 
 退出登陆
+
 logout(callback(ret, err))
 
 ## callback(ret, err)
@@ -271,6 +278,7 @@ alibaichuan.logout(function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a4"></div>
@@ -278,6 +286,7 @@ iOS系统，Android系统
 # **showTaokeItemById**
 
 通过itemid打开宝贝
+
 showTaokeItemById({params},callback(ret, err))
 
 ## params
@@ -363,6 +372,7 @@ alibaichuan.showTaokeItemById(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a5"></div>
@@ -370,6 +380,7 @@ iOS系统，Android系统
 #**showTaokeItemByUrl**
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接或者商品裸链接**）
+
 showTaokeItemByUrl({params},callback(ret, err))
 
 ## params
@@ -455,6 +466,7 @@ alibaichuan.showTaokeItemByUrl(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a6"></div>
@@ -462,6 +474,7 @@ iOS系统，Android系统
 #**addCartPage**
 
 添加商品到购物车
+
 addCartPage({params},callback(ret, err))
 
 ## params
@@ -547,6 +560,7 @@ alibaichuan.addCartPage(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a7"></div>
@@ -554,6 +568,7 @@ iOS系统，Android系统
 # **shopPage**
 
 打开店铺
+
 shopPage({params},callback(ret, err))
 
 ## params
@@ -639,6 +654,7 @@ alibaichuan.shopPage(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a8"></div>
@@ -646,6 +662,7 @@ iOS系统，Android系统
 # **myOrdersPage**
 
 我的订单页
+
 myOrdersPage({params},callback(ret, err))
 
 ## params
@@ -737,6 +754,7 @@ alibaichuan.myOrdersPage(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a9"></div>
@@ -744,6 +762,7 @@ iOS系统，Android系统
 # **myCartsPage**
 
 购物车列表页
+
 myCartsPage({params},callback(ret, err))
 
 ## params
@@ -823,6 +842,7 @@ alibaichuan.myCartsPage(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a10"></div>
@@ -830,6 +850,7 @@ iOS系统，Android系统
 # **showTaokeItemByIdWeb**
 
 通过itemid打开宝贝
+
 showTaokeItemByIdWeb({params},callback(ret, err))
 
 ## params
@@ -959,6 +980,7 @@ alibaichuan.showTaokeItemByIdWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a11"></div>
@@ -967,6 +989,7 @@ iOS系统，Android系统
 
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接或者商品裸链接**）
+
 showTaokeItemByUrlWeb({params},callback(ret, err))
 
 ## params
@@ -1096,14 +1119,15 @@ alibaichuan.showTaokeItemByUrlWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a12"></div>
 
 # **addCartPageWeb**
 
-
 添加商品到购物车
+
 addCartPageWeb({params},callback(ret, err))
 
 ## params
@@ -1232,6 +1256,7 @@ alibaichuan.addCartPageWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a13"></div>
@@ -1239,6 +1264,7 @@ iOS系统，Android系统
 # **shopPageWeb**
 
 打开店铺
+
 shopPageWeb({params},callback(ret, err))
 
 ## params
@@ -1367,6 +1393,7 @@ alibaichuan.shopPageWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a14"></div>
@@ -1374,6 +1401,7 @@ iOS系统，Android系统
 # **myOrdersPageWeb**
 
 我的订单页
+
 myOrdersPageWeb({params},callback(ret, err))
 
 ## params
@@ -1508,14 +1536,15 @@ alibaichuan.myOrdersPageWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a15"></div>
 
 # **myCartsPageWeb**
 
-
 购物车列表页
+
 myCartsPageWeb({params},callback(ret, err))
 
 ## params
@@ -1638,6 +1667,7 @@ alibaichuan.myCartsPageWeb(param, function(ret, err) {
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a16"></div>
@@ -1645,6 +1675,7 @@ iOS系统，Android系统
 # **setBlockUrl**
 
 设置要拦截的url。(用来屏蔽页面自动唤醒手淘app)
+
 setBlockUrl({params},callback(ret))
 
 ## params
@@ -1682,6 +1713,7 @@ alibaichuan.setBlockUrl(param)
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a17"></div>
@@ -1689,6 +1721,7 @@ iOS系统，Android系统
 # **removeWeb**
 
 从视图中移除webview打开的百川页面。
+
 removeWeb()
 
 ## 示例代码
@@ -1701,6 +1734,7 @@ alibaichuan.removeWeb();
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a18"></div>
@@ -1708,6 +1742,7 @@ iOS系统，Android系统
 # **addPageDidListener**
 
 监听页面加载完成后返回页面的title和url。
+
 addPageDidListener(callback(ret))
 
 ## callback(ret)
@@ -1740,6 +1775,7 @@ alibaichuan.addPageDidListener(function(ret){
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a19"></div>
@@ -1747,6 +1783,7 @@ iOS系统，Android系统
 # **addLoadingListener**
 
 监听页面加载中返回页面的title和url。
+
 addLoadingListener(callback(ret))
 
 ## callback(ret)
@@ -1779,6 +1816,7 @@ alibaichuan.addLoadingListener(function(ret){
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a20"></div>
@@ -1786,6 +1824,7 @@ iOS系统，Android系统
 # **addJsToPage**
 
 在当前打开的淘宝页面加载完成后注入一段js脚本到H5页面。
+
 addJsToPage({params}, callback(ret))
 
 ## params
@@ -1837,6 +1876,7 @@ alibaichuan.addJsToPage(param,function(ret){
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a21"></div>
@@ -1844,6 +1884,7 @@ iOS系统，Android系统
 # **removeJsListener**
 
 移除webview页面上的监听事件或js
+
 removeJsListener({params})
 
 ## params
@@ -1861,6 +1902,7 @@ name:
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a22"></div>
@@ -1868,6 +1910,7 @@ iOS系统，Android系统
 # **webGoBack**
 
 控制外部webview的后退
+
 webGoBack(callback(ret))
 
 ## callback(ret)
@@ -1888,6 +1931,7 @@ ret：
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a23"></div>
@@ -1895,6 +1939,7 @@ iOS系统，Android系统
 # **webGoForward**
 
 控制外部webview的前进
+
 webGoForward(callback(ret))
 
 ## callback(ret)
@@ -1915,6 +1960,7 @@ ret：
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a24"></div>
@@ -1922,6 +1968,7 @@ iOS系统，Android系统
 # **webRefresh**
 
 控制外部webview的刷新
+
 webRefresh()
 
 ## 示例代码
@@ -1934,6 +1981,7 @@ alibaichuan.webRefresh();
 ## 可用性
 
 iOS系统，Android系统
+
 可提供的1.0.0及更高版本
 
 <div id="a25"></div>
@@ -1941,7 +1989,6 @@ iOS系统，Android系统
 # **关于鹊桥跟单**
 
 鹊桥的商品，基本一律走通用（鹊桥即将下线）
-
 
 <div id="a26"></div>
 
@@ -1961,4 +2008,5 @@ iOS系统，Android系统
 # **接口快速记忆法**
 
 xxxWeb的接口参数与回调基本是和不带web的接口是一致的，唯一不同的是xxxWeb的接口参数多了winObj、rect、fixedOn、fixed四个参数
+
 另外webview操作下面的所有接口都是针对xxxWeb的
