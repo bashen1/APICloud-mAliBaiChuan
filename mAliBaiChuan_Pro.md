@@ -7,43 +7,67 @@
 #### 用户接口
 
  [showLogin](#a1)
+ 
  [getUserInfo](#a2)
+ 
  [logout](#a3)
 
 #### 百川接口
 
  [showTaokeItemById](#a4)
+ 
  [showTaokeItemByUrl](#a5)
+ 
  [addCartPage](#a6)
+ 
  [shopPage](#a7)
+ 
  [myOrdersPage](#a8)
+ 
  [myCartsPage](#a9)
 
 #### 外部WebView
 
  [showTaokeItemByIdWeb](#a10)
+ 
  [showTaokeItemByUrlWeb](#a11)
+ 
  [addCartPageWeb](#a12)
+ 
  [shopPageWeb](#a13)
+ 
  [myOrdersPageWeb](#a14)
+ 
  [myCartsPageWeb](#a15)
 
 #### 外部WebView操作
 
  [setBlockUrl](#a16)
+ 
  [removeWeb](#a17)
+ 
  [addPageDidListener](#a18)
+ 
  [addLoadingListener](#a19)
+ 
  [addJsToPage](#a20)
+ 
  [removeJsListener](#a21)
+ 
  [webGoBack](#a22)
+ 
  [webGoForward](#a23)
+ 
  [webRefresh](#a24)
 
 #### 注意事项
+
  [关于鹊桥跟单](#a25)
+ 
  [关于高佣](#a26) 
+ 
  [关于adzone与appkey](#a27)
+ 
  [接口快速记忆法](#a28)
 
 
