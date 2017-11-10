@@ -1960,5 +1960,5 @@ iOS系统，Android系统
 
 # **接口快速记忆法**
 
-xxxWeb的接口参数与回调基本是和不带web的接口是一致的，唯一不同的是xxxWeb的接口参数多了winObj与rect（定位）两个参数
+xxxWeb的接口参数与回调基本是和不带web的接口是一致的，唯一不同的是xxxWeb的接口参数多了winObj、rect、fixedOn、fixed四个参数
 另外webview操作下面的所有接口都是针对xxxWeb的
