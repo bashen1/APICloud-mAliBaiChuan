@@ -103,13 +103,45 @@
 
 初始化阿里百川SDK
 
-initTae()
+initTae(callback(ret, err))
+
+## callback(ret, err)
+
+ret：
+
+- 类型：JSON对象
+- 内部字段：
+
+```js
+{
+    code:"0" ,               //字符串
+    message:"success"
+}
+```
+
+err：
+
+- 类型：JSON对象
+- 内部字段：
+
+```js
+{
+    code : "1000",                   //错误码，百川返回
+    message:"user is not exist"      //错误描述，百川返回
+}
+```
 
 ## 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
-alibaichuan.initTae();
+alibaichuan.initTae(function(ret, err) {
+    if (ret) {
+        alert("ret:" + JSON.stringify(ret));
+    } else {
+        alert("err:" + JSON.stringify(err));
+    }
+});
 ```
 
 ## 可用性
@@ -377,7 +409,7 @@ iOS系统，Android系统
 
 <div id="a5"></div>
 
-#**showTaokeItemByUrl**
+# **showTaokeItemByUrl**
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接或者商品裸链接**）
 
@@ -471,7 +503,7 @@ iOS系统，Android系统
 
 <div id="a6"></div>
 
-#**addCartPage**
+# **addCartPage**
 
 添加商品到购物车
 
