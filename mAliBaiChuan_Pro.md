@@ -83,9 +83,9 @@
 > 4. 点击左侧『我的产品后台』，右侧开通『百川电商SDK』
 > 5. 点击左侧『系统设置』，右侧选择『应用设置』进行相关配置
 > 6. 点击左侧『安全图片获取』，右侧填入在APICloud编译的apk与iOS的BundleID，分别获取iOS和Android下的验证图片
-> 7. 下载解压**[自定义模块.zip](http://ol1d6flsx.bkt.clouddn.com/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97.zip)**，分别复制yw_1222.jpg到各个目录替换原来的yw_1222.jpg。***注意：请压缩mAliBaiChuanPic目录为zip**
+> 7. 下载解压**[自定义模块.zip](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/Files/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97.zip)**，分别复制yw_1222.jpg到各个目录替换原来的yw_1222.jpg。***注意：请压缩mAliBaiChuanPic目录为zip**
 > 8. 根据[自定义模块说明](http://docs.apicloud.com/Module-Dev/Upload-custom-module)分别上传模块包至APICloud后台，模块名称默认为 **mAliBaiChuanPic**
-> 9. **[案例源码,点击下载](http://ol1d6flsx.bkt.clouddn.com/widget.zip)**
+> 9. **[案例源码,点击下载](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/Files/widget.zip)**
 
 ----------
 ## 需要在config.xml配置如下信息
