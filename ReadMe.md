@@ -12,9 +12,7 @@
 
 ## 如何使用与集成这个模块
 
-* 请跳转至[mAliBaiChuan.md](./mAliBaiChuan.md)阅读详细细节，基础班
-
-* 请跳转至[mAliBaiChuan_Pro.md](./mAliBaiChuan_Pro.md)阅读详细细节，自定义webview版，可实现连接拦截，插入js，可回传淘宝页面数据等
+* 请跳转至[mAliBaiChuan_Pro.md](./mAliBaiChuan_Pro.md)阅读详细细节
 
 ## 如何购买
 
