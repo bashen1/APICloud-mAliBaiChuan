@@ -12,7 +12,7 @@
 
 ## 如何使用与集成这个模块
 
-* 请跳转至[mAliBaiChuan_Pro.md](./mAliBaiChuan_Pro.md)阅读详细细节
+* 请跳转至[说明.md](./说明.md)阅读详细细节
 
 ## 如何购买
 
