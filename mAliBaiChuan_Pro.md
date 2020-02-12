@@ -126,6 +126,13 @@ ret：
     avatarUrl:"http://...",          //用户头像
     openId:"AAE...",                 //用户ID
     isLogin:"true",                  //是否登陆，字符串，true/false
+    userId:"",                       //iOS返回空
+    openSid:"",                      
+    topAccessToken:"",               
+    topAuthCode:"",                  
+    topExpireTime:"",                //iOS返回空
+    havanaSsoToken:"",               //iOS返回空
+    ssoToken:""                      //iOS返回空
 }
 ```
 
@@ -179,6 +186,13 @@ ret：
     avatarUrl:"http://...",          //用户头像
     openId:"AAE...",                 //用户ID
     isLogin:"true",                  //是否登陆，字符串，true/false
+    userId:"",                       //iOS返回空
+    openSid:"",                      
+    topAccessToken:"",               
+    topAuthCode:"",                  
+    topExpireTime:"",                //iOS返回空
+    havanaSsoToken:"",               //iOS返回空
+    ssoToken:""                      //iOS返回空
 }
 ```
 
