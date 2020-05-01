@@ -72,9 +72,9 @@
 > 5. 点击左侧『系统设置』，右侧选择『应用设置』进行相关配置
 > 6. 点击左侧『安全图片获取』，右侧填入在APICloud编译的apk与iOS的BundleID，分别获取iOS和Android下的验证图片
 > 7. 点击左侧『申请套件』进行套件申请
-> 8. 下载解压**[自定义模块.zip](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/自定义模块.zip)**，分别复制yw_1222.jpg到各个目录替换原来的yw_1222.jpg。***注意：请压缩mAliBaiChuanPic目录为zip**
+> 8. 下载解压**[自定义模块.zip](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/Files/自定义模块.zip)**，分别复制yw_1222.jpg到各个目录替换原来的yw_1222.jpg。***注意：请压缩mAliBaiChuanPic目录为zip**，【注意】：iOS下新版需要把yw_1222.jpg重命名为yw_1222_baichuan.jpg
 > 9. 根据[自定义模块说明](http://docs.apicloud.com/Module-Dev/Upload-custom-module)分别上传模块包至APICloud后台，模块名称默认为 **mAliBaiChuanPic**
-> 10. **[案例源码,点击下载](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/widget.zip)**
+> 10. **[案例源码,点击下载](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/Files/widget.zip)**
 
 ------
 
