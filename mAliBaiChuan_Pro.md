@@ -1,10 +1,10 @@
-# **目录**
+# API
 
-#### 初始化接口
+## 初始化接口
 
  [initTae](#a0)
 
-#### 用户接口
+## 用户接口
 
  [showLogin](#a1)
 
@@ -12,7 +12,7 @@
 
  [logout](#a3)
 
-#### 百川接口
+## 百川接口
 
  [showTaokeItemById](#a4)
 
@@ -22,11 +22,11 @@
 
  [myCartsPage](#a9)
 
-#### 外部WebView
+## 外部WebView
 
  [showTaokeItemByUrlWeb](#a11)
 
-#### 外部WebView操作
+## 外部WebView操作
 
  [setBlockUrl](#a16)
 
@@ -46,24 +46,24 @@
 
  [webRefresh](#a24)
 
-#### 注意事项
+## 注意事项
 
  [关于高佣](#a26) 
 
  [关于adzone与appkey](#a27)
 
-# **概述**
+## **概述**
 
-> ## 使用之前
+> ### 使用之前
 >
 > 使用之前先阅读【[说明](https://github.com/bashen1/APICloud-mAliBaiChuan/blob/master/说明.md)】
 >
-> ## 使用须知
+> ### 使用须知
 >
-> 不同的安卓证书及iOS包会有不同的SDK（其实不同的也就是那一张yw_1222.jpg），并得到不一样的 **"安全图片文件：yw_1222.jpg"** ，所以此版本为测试版本，在APICloud创建项目时候使用默认证书，生成apk时候也请选择测试版。
+> 不同的安卓证书及iOS包会有不同的SDK（其实不同的也就是那一张yw_1222_baichuan.jpg），并得到不一样的 **"安全图片文件：yw_1222_baichuan.jpg"** ，所以此版本为测试版本，在APICloud创建项目时候使用默认证书，生成apk时候也请选择测试版。
 > 如果在使用过程中有任何的问题及建议，请发邮件到401828628@qq.com
 >
-> ## 申请步骤
+> ### 申请步骤
 >
 > 1. 登录[阿里百川](http://baichuan.taobao.com/)，进如控制台
 > 2. 新建一个应用，然后在右上角选择新建的应用，左侧记录下这个应用的AppKey **（在config.xml配置中需要用到）**
@@ -78,7 +78,7 @@
 
 ------
 
-## 需要在config.xml配置如下信息
+### 需要在config.xml配置如下信息
 
 ```xml
 <preference name="querySchemes" value="tbopen,tmall"/>
@@ -89,31 +89,31 @@
 
 <div id="a0"></div>
 
-# **initTae**
+## **initTae**
 
 初始化阿里百川SDK
 initTae()
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
 alibaichuan.initTae();
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a1"></div>
 
-# **showLogin**
+## **showLogin**
 
 打开手淘授权登陆
 showLogin(callback(ret, err))
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -148,7 +148,7 @@ err：
 }
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -161,19 +161,19 @@ alibaichuan.showLogin(function(ret, err) {
 });
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a2"></div>
 
-# **getUserInfo**
+## **getUserInfo**
 
 获取登陆的用户的相关信息
 getUserInfo(callback(ret, err))
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -208,7 +208,7 @@ err：
 }
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -221,19 +221,19 @@ alibaichuan.getUserInfo(function(ret, err) {
 });
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a3"></div>
 
-# **logout**
+## **logout**
 
 退出登陆
 logout(callback(ret, err))
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -261,7 +261,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -275,19 +275,19 @@ alibaichuan.logout(function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a4"></div>
 
-# **showTaokeItemById**
+## **showTaokeItemById**
 
 通过itemid打开宝贝
 showTaokeItemById({params},callback(ret, err))
 
-## params
+### params
 
 itemid:
 
@@ -319,7 +319,7 @@ tkkey:
 - 类型：字符串
 - 描述：阿里妈妈后台，推广渠道ID
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -348,7 +348,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -370,19 +370,19 @@ alibaichuan.showTaokeItemById(param, function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a5"></div>
 
-# **showTaokeItemByUrl**
+## **showTaokeItemByUrl**
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接或者商品裸链接。裸链接能跟到订单，但是无法跳转至领券页面**）
 showTaokeItemByUrl({params},callback(ret, err))
 
-## params
+### params
 
 url:
 
@@ -414,7 +414,7 @@ tkkey:
 - 类型：字符串
 - 描述：阿里妈妈后台，推广渠道ID
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -443,7 +443,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -466,19 +466,19 @@ alibaichuan.showTaokeItemByUrl(param, function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a7"></div>
 
-# **shopPage**
+## **shopPage**
 
 打开店铺
 shopPage({params},callback(ret, err))
 
-## params
+### params
 
 shopid:
 
@@ -510,7 +510,7 @@ tkkey:
 - 类型：字符串
 - 描述：阿里妈妈后台，推广渠道ID
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -541,7 +541,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -564,19 +564,19 @@ alibaichuan.shopPage(param, function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a9"></div>
 
-# **myCartsPage**
+## **myCartsPage**
 
 购物车列表页
 myCartsPage({params},callback(ret, err))
 
-## params
+### params
 
 mmpid:
 
@@ -603,7 +603,7 @@ tkkey:
 - 类型：字符串
 - 描述：阿里妈妈后台，推广渠道ID
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -634,7 +634,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -656,19 +656,17 @@ alibaichuan.myCartsPage(param, function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
-
-
-# **showTaokeItemByUrlWeb**
+## **showTaokeItemByUrlWeb**
 
 通过商品URL打开宝贝（可以打开任何页面，包括百度等。**注意此接口如果想跟单到阿里妈妈，必须使用推广链接或者商品裸链接**）
 showTaokeItemByUrlWeb({params},callback(ret, err))
 
-## params
+### params
 
 url:
 
@@ -734,7 +732,7 @@ fixed:
 - 默认值：true
 - 描述：是否将模块视图固定到窗口上，不跟随窗口上下滚动，可为空
 
-## callback(ret, err)
+### callback(ret, err)
 
 ret：
 
@@ -763,7 +761,7 @@ err：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -794,19 +792,17 @@ alibaichuan.showTaokeItemByUrlWeb(param, function(ret, err) {
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
-
-
-# **setBlockUrl**
+## **setBlockUrl**
 
 设置要拦截的url。(用来屏蔽页面自动唤醒手淘app)
 setBlockUrl({params},callback(ret))
 
-## params
+### params
 
 url:
 
@@ -814,7 +810,7 @@ url:
 - 默认：无
 - 描述：要拦截的url （若不传/为空 则清除已有拦截）
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -829,7 +825,7 @@ ret：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -840,19 +836,19 @@ alibaichuan.setBlockUrl(param)
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a17"></div>
 
-# **removeWeb**
+## **removeWeb**
 
 从视图中移除webview打开的百川页面。
 removeWeb()
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -860,19 +856,19 @@ alibaichuan.removeWeb();
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a18"></div>
 
-# **addPageDidListener**
+## **addPageDidListener**
 
 监听页面加载完成后返回页面的title和url。
 addPageDidListener(callback(ret))
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -889,7 +885,7 @@ ret：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -901,19 +897,19 @@ alibaichuan.addPageDidListener(function(ret){
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a19"></div>
 
-# **addLoadingListener**
+## **addLoadingListener**
 
 监听页面加载中返回页面的title和url。
 addLoadingListener(callback(ret))
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -930,7 +926,7 @@ ret：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -942,19 +938,19 @@ alibaichuan.addLoadingListener(function(ret){
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a20"></div>
 
-# **addJsToPage**
+## **addJsToPage**
 
 在当前打开的淘宝页面加载完成后注入一段js脚本到H5页面。
 addJsToPage({params}, callback(ret))
 
-## params
+### params
 
 script:
 
@@ -965,7 +961,7 @@ script:
 - 其中javascript:{};不能有空格，还有需要带上最后的分号，切记
 - 如果需要接收webview的返回值，必须是调用window["你再创建webview的winObj值"].jsCallBack(JSON对象)，详见下面示例
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -982,7 +978,7 @@ ret：
 
 ```
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -1001,19 +997,19 @@ alibaichuan.addJsToPage(param,function(ret){
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a21"></div>
 
-# **removeJsListener**
+## **removeJsListener**
 
 移除webview页面上的监听事件或js
 removeJsListener({params})
 
-## params
+### params
 
 name:
 
@@ -1025,19 +1021,19 @@ name:
 - loadingListener' //移除loadingListener
 - javaScript' //移除javaScript脚本
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a22"></div>
 
-# **webGoBack**
+## **webGoBack**
 
 控制外部webview的后退
 webGoBack(callback(ret))
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -1053,19 +1049,19 @@ ret：
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a23"></div>
 
-# **webGoForward**
+## **webGoForward**
 
 控制外部webview的前进
 webGoForward(callback(ret))
 
-## callback(ret)
+### callback(ret)
 
 ret：
 
@@ -1081,19 +1077,19 @@ ret：
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a24"></div>
 
-# **webRefresh**
+## **webRefresh**
 
 控制外部webview的刷新
 webRefresh()
 
-## 示例代码
+### 示例代码
 
 ```js
 var alibaichuan = api.require('mAliBaiChuan');
@@ -1101,19 +1097,19 @@ alibaichuan.webRefresh();
 
 ```
 
-## 可用性
+### 可用性
 
 iOS系统，Android系统
 可提供的1.0.0及更高版本
 
 <div id="a26"></div>
 
-# **关于高佣**
+## **关于高佣**
 
 1. 关于转链问题：目前，SDK的高佣转链功能需要满足两个条件 1）唤醒手淘  2）使用商品裸链接或者宝贝ID（暂时不能传入二合一页面的链接或其他已经转好的链接
 
 <div id="a27"></div>
 
-# **关于adzone与appkey**
+## **关于adzone与appkey**
 
 只要填写阿里妈妈pid就能跟到订单，不管adzoneid与tkkey，后两个只是影响是否高佣
